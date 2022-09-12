@@ -44,43 +44,6 @@
   </div>
   <!-- Spinner End -->
 
-  <!-- Topbar Start -->
-  <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
-    <div class="row gx-0 d-none d-lg-flex">
-      <div class="col-lg-7 px-5 text-start">
-        <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-          <small class="fa fa-map-marker-alt text-primary me-2"></small>
-          <small>Manaus, Amazonas, Brasil</small>
-        </div>
-        <div class="h-100 d-inline-flex align-items-center py-3">
-          <small class="far fa-clock text-primary me-2"></small>
-          <small id="current_date"><script>
-            date = new Date();
-            year = date.getFullYear();
-            month = date.getMonth() + 1;
-            day = date.getDate();
-            document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year;
-            </script></small>
-        </div>
-      </div>
-      <div class="col-lg-5 px-5 text-end">
-        <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-          <small class="fa fa-phone-alt text-primary me-2"></small>
-          <small>+012 345 6789</small>
-        </div>
-        <div class="h-100 d-inline-flex align-items-center">
-          <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.linkedin.com/company/idesam/"
-            target="_blank"><i class="fab fa-linkedin-in"></i></a>
-          <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.instagram.com/idesam/"
-            target="_blank"><i class="fab fa-instagram"></i></a>
-          <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.youtube.com/user/idesanico"
-            target="_blank"><i class="fab fa-youtube"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Topbar End -->
-
   <!-- Navbar Start -->
   <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
     data-wow-delay="0.1s">
@@ -93,19 +56,13 @@
     <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
       <div class="navbar-nav ms-auto">
         <a href="index.html" class="nav-item nav-link active">Home</a>
-        <a href="about.html" class="nav-item nav-link">Premiação</a>
-        <a href="service.html" class="nav-item nav-link">Realização</a>
-        <div class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-          <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-            <a href="animal.html" class="dropdown-item">Our Animals</a>
-            <a href="membership.html" class="dropdown-item">Membership</a>
-            <a href="visiting.html" class="dropdown-item">Visiting Hours</a>
-            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-            <a href="404.html" class="dropdown-item">404 Page</a>
-          </div>
-        </div>
-        <a href="contact.html" class="nav-item nav-link">Contato</a>
+        <a href="#sobre" class="nav-item nav-link">Sobre</a>
+        <a href="#evento" class="nav-item nav-link">Evento</a>
+        <a href="#premiacao" class="nav-item nav-link">Premiação</a>
+        <a href="#jurados" class="nav-item nav-link">Jurados</a>
+        <a href="#gallery" class="nav-item nav-link">Galeria</a>
+        <a href="#realizadores" class="nav-item nav-link">Realização</a>
+        <a href="#contato" class="nav-item nav-link">Contato</a>
       </div>
       <a href="" class="btn btn-primary">Inscreva-se<i class="fa fa-arrow-right ms-3"></i></a>
     </div>
@@ -115,31 +72,16 @@
   <!-- Header Start -->
   <div class="container-fluid bg-dark p-0 mb-5">
     <div class="row g-0 flex-column-reverse flex-lg-row">
-      <div class="col-lg-6 p-0 wow fadeIn" data-wow-delay="0.1s">
+      <div class="col-lg-12 p-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="header-bg h-100 d-flex flex-column justify-content-center p-5">
-          <h1 class="display-4 text-light mb-5">
-            Enjoy Wonderful Day With Your Family
-          </h1>
-          <div class="d-flex align-items-center pt-4 animated slideInDown">
-            <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5">Read More</a>
-            <button type="button" class="btn-play" data-bs-toggle="modal"
-              data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
-              <span></span>
-            </button>
-            <h6 class="text-white m-0 ms-4 d-none d-sm-block">Watch Video</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-        <div class="owl-carousel header-carousel">
-          <div class="owl-carousel-item">
-            <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
-          </div>
-          <div class="owl-carousel-item">
-            <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
-          </div>
-          <div class="owl-carousel-item">
-            <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+          <div class="d-flex pt-4 div-header-banner animated slideInDown">
+            <div class="image-banner">
+              <img class="img-fluid" src="img/icon/logo-white.png" alt="logo elos" />
+            </div>
+            <div class="div-btn-header">
+              <a href="" class="btn-subscript btn btn-primary">Inscreva-se<i class="fa fa-arrow-right ms-3"></i></a>
+              <a href="" class="btn-edital btn btn-primary">Edital<i class="fa fa-file-pdf ms-3"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -147,29 +89,8 @@
   </div>
   <!-- Header End -->
 
-  <!-- Video Modal Start -->
-  <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content rounded-0">
-        <div class="modal-header">
-          <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <!-- 16:9 aspect ratio -->
-          <div class="ratio ratio-16x9">
-            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-              allow="autoplay"></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Video Modal End -->
-
   <!-- About Start -->
-  <div class="container-xxl py-5">
+  <div class="container-xxl py-5" id="sobre">
     <div class="container">
       <div class="row g-5">
         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -206,444 +127,367 @@
   </div>
   <!-- About End -->
 
-  <!-- elos nos numeros -->
-  <!-- <div class="container-xxl bg-primary facts my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
+  <div class="container-xxl bg-primary fact-1 my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-          <i class="fa fa-paw fa-3x text-primary mb-3"></i>
-          <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-          <p class="text-white mb-0">Total Animal</p>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-          <i class="fa fa-users fa-3x text-primary mb-3"></i>
-          <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-          <p class="text-white mb-0">Daily Vigitors</p>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-          <i class="fa fa-certificate fa-3x text-primary mb-3"></i>
-          <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-          <p class="text-white mb-0">Total Membership</p>
-        </div>
-        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-          <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
-          <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-          <p class="text-white mb-0">Save Wild Life</p>
+      <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-6">
+          <p class="me-21"><span class="text-primary">#</span> Elos da Amazônia 2022</p>
+          <h1 class="display-5 mb-0 mh1">
+            Quem pode <span class="text-primary">participar?</span>
+          </h1>
         </div>
       </div>
+      <div class="col-lg-10">
+        <h4 class="mh12">Podem concorrer ao prêmio pessoas físicas e pessoas jurídicas, que possuam uma tecnologia
+          inovadora
+          capaz de solucionar as problemáticas apresentadas conforme o edital.</h4>
+        <a href="" class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5">Inscreva-se</a>
+      </div>
     </div>
-  </div> -->
-  <!-- Facts End -->
+  </div>
+
 
   <!-- Service Start -->
-  <div class="container-xxl py-5">
+  <div class="container-xxl py-5" id="evento">
     <div class="container">
       <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="col-lg-8">
           <p><span class="text-primary me-2">#</span>Elos da Amazônia 2022</p>
           <h1 class="display-5 mb-0">
-            Integração ao 3º ciclo da Comunidade de bionegócios do
-            <span class="text-primary">PPBIO</span>, com os seguintes benefícios:
+            Etapas do
+            <span class="text-primary">evento</span>
           </h1>
         </div>
       </div>
-      <div class="row gy-5 gx-4">
-        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="row gy-5 gx-4 gap-4">
+        <div class="col-lg-2 col-md-2 col-sm-3 wow fadeInUp" data-wow-delay="0.1s">
           <img class="img-fluid mb-3" src="img/icon/icon-2.png" alt="Icon" />
-          <h5 class="mb-3">Car Parking</h5>
-          <span>Acesso a conteúdo com especialistas de mercado (workshops e palestras).</span>
+          <h5 class="mb-3">12/09</h5>
+          <span>Lançamento da chamada</span>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="col-lg-2 col-md-2 col-sm-3 wow fadeInUp" data-wow-delay="0.3s">
           <img class="img-fluid mb-3" src="img/icon/icon-3.png" alt="Icon" />
-          <h5 class="mb-3">Animal Photos</h5>
-          <span>Apoio na preparação de projetos para receber aporte via P&D;</span>
+          <h5 class="mb-3">09/10</h5>
+          <span>Recebimento das propostas de projeto</span>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="col-lg-2 col-md-2 col-sm-4 wow fadeInUp" data-wow-delay="0.5s">
           <img class="img-fluid mb-3" src="img/icon/icon-4.png" alt="Icon" />
-          <h5 class="mb-3">Guide Services</h5>
-          <span>Acompanhamento para o desenvolvimento do negócio;</span>
+          <h5 class="mb-3">27/10</h5>
+          <span>Divulgação dos aprovados para 2ª fase</span>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+        <div class="col-lg-2 col-md-2 col-sm-3 wow fadeInUp" data-wow-delay="0.7s">
           <img class="img-fluid mb-3" src="img/icon/icon-5.png" alt="Icon" />
-          <h5 class="mb-3">Food & Beverages</h5>
-          <span>Possibilidade de receber Investimento de P&D via ppbio: de R$200.000,00 até R$700.000,00 em recursos
-            diretos ou serviços; (de acordo com análise posterior e enquadramento do negócio);</span>
+          <h5 class="mb-3">07/11</h5>
+          <span>Realização do Pitch Day</span>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-2 col-md-2 col-sm-3 wow fadeInUp" data-wow-delay="0.1s">
           <img class="img-fluid mb-3" src="img/icon/icon-6.png" alt="Icon" />
-          <h5 class="mb-3">Zoo Shopping</h5>
-          <span>Conexão com atores da cadeia produtiva e do ecossistema, como incubadoras, aceleradoras e
-            investidores;</span>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-          <img class="img-fluid mb-3" src="img/icon/icon-7.png" alt="Icon" />
-          <h5 class="mb-3">Free Hi Speed Wi-Fi</h5>
-          <span> Divulgação do projeto/negócio na vitrine de captação de investimento do PPBio.</span>
+          <h5 class="mb-3">10/11</h5>
+          <span>Divulgação Pública</span>
         </div>
       </div>
     </div>
   </div>
   <!-- Service End -->
 
-  <!-- Animal Start -->
-  <div class="container-xxl py-5">
-    <div class="container">
-      <div class="row g-5 mb-5 align-items-end wow fadeInUp" data-wow-delay="0.1s">
-        <div class="col-lg-6">
-          <p><span class="text-primary me-2">#</span>Our Animals</p>
-          <h1 class="display-5 mb-0">
-            Let`s See Our <span class="text-primary">Zoofari</span> Awsome
-            Animals
-          </h1>
-        </div>
-        <div class="col-lg-6 text-lg-end">
-          <a class="btn btn-primary py-3 px-5" href="">Explore More Animals</a>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="row g-4">
-            <div class="col-12">
-              <a class="animal-item" href="img/animal-md-1.jpg" data-lightbox="animal">
-                <div class="position-relative">
-                  <img class="img-fluid" src="img/animal-md-1.jpg" alt="" />
-                  <div class="animal-text p-4">
-                    <p class="text-white small text-uppercase mb-0">Animal</p>
-                    <h5 class="text-white mb-0">Elephant</h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12">
-              <a class="animal-item" href="img/animal-lg-1.jpg" data-lightbox="animal">
-                <div class="position-relative">
-                  <img class="img-fluid" src="img/animal-lg-1.jpg" alt="" />
-                  <div class="animal-text p-4">
-                    <p class="text-white small text-uppercase mb-0">Animal</p>
-                    <h5 class="text-white mb-0">Elephant</h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="row g-4">
-            <div class="col-12">
-              <a class="animal-item" href="img/animal-lg-2.jpg" data-lightbox="animal">
-                <div class="position-relative">
-                  <img class="img-fluid" src="img/animal-lg-2.jpg" alt="" />
-                  <div class="animal-text p-4">
-                    <p class="text-white small text-uppercase mb-0">Animal</p>
-                    <h5 class="text-white mb-0">Elephant</h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12">
-              <a class="animal-item" href="img/animal-md-2.jpg" data-lightbox="animal">
-                <div class="position-relative">
-                  <img class="img-fluid" src="img/animal-md-2.jpg" alt="" />
-                  <div class="animal-text p-4">
-                    <p class="text-white small text-uppercase mb-0">Animal</p>
-                    <h5 class="text-white mb-0">Elephant</h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="row g-4">
-            <div class="col-12">
-              <a class="animal-item" href="img/animal-md-3.jpg" data-lightbox="animal">
-                <div class="position-relative">
-                  <img class="img-fluid" src="img/animal-md-3.jpg" alt="" />
-                  <div class="animal-text p-4">
-                    <p class="text-white small text-uppercase mb-0">Animal</p>
-                    <h5 class="text-white mb-0">Elephant</h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-12">
-              <a class="animal-item" href="img/animal-lg-3.jpg" data-lightbox="animal">
-                <div class="position-relative">
-                  <img class="img-fluid" src="img/animal-lg-3.jpg" alt="" />
-                  <div class="animal-text p-4">
-                    <p class="text-white small text-uppercase mb-0">Animal</p>
-                    <h5 class="text-white mb-0">Elephant</h5>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Animal End -->
-
-  <!-- Visiting Hours Start -->
-  <div class="container-xxl bg-primary visiting-hours my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
+  <!-- elos nos numeros -->
+  <div id="premiacao" class="container-xxl bg-primary facts my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
-      <div class="row g-5">
-        <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-          <h1 class="display-6 text-white mb-5">Visiting Hours</h1>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <span>Monday</span>
-              <span>9:00AM - 6:00PM</span>
-            </li>
-            <li class="list-group-item">
-              <span>Tuesday</span>
-              <span>9:00AM - 6:00PM</span>
-            </li>
-            <li class="list-group-item">
-              <span>Wednesday</span>
-              <span>9:00AM - 6:00PM</span>
-            </li>
-            <li class="list-group-item">
-              <span>Thursday</span>
-              <span>9:00AM - 6:00PM</span>
-            </li>
-            <li class="list-group-item">
-              <span>Friday</span>
-              <span>9:00AM - 6:00PM</span>
-            </li>
-            <li class="list-group-item">
-              <span>Saturday</span>
-              <span>9:00AM - 6:00PM</span>
-            </li>
-            <li class="list-group-item">
-              <span>Sunday</span>
-              <span>Closed</span>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-6 text-light wow fadeIn" data-wow-delay="0.5s">
-          <h1 class="display-6 text-white mb-5">Contact Info</h1>
-          <table class="table">
-            <tbody>
-              <tr>
-                <td>Office</td>
-                <td>123 Street, New York, USA</td>
-              </tr>
-              <tr>
-                <td>Zoo</td>
-                <td>123 Street, New York, USA</td>
-              </tr>
-              <tr>
-                <td>Ticket</td>
-                <td>
-                  <p class="mb-2">+012 345 6789</p>
-                  <p class="mb-0">ticket@example.com</p>
-                </td>
-              </tr>
-              <tr>
-                <td>Support</td>
-                <td>
-                  <p class="mb-2">+012 345 6789</p>
-                  <p class="mb-0">support@example.com</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Visiting Hours End -->
-
-  <!-- Membership Start -->
-  <div class="container-xxl py-5">
-    <div class="container">
-      <div class="row g-5 mb-5 align-items-end wow fadeInUp" data-wow-delay="0.1s">
-        <div class="col-lg-6">
-          <p><span class="text-primary me-2">#</span>Membership</p>
-          <h1 class="display-5 mb-0">
-            You Can Be A Proud Member Of
-            <span class="text-primary">Zoofari</span>
+      <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-12">
+          <p class="me-21"><span class="text-primary">#</span> Premiação</p>
+          <h1 class="display-5 mb-0 mh1">
+            A Chamada Elos da Amazônia em seu 3° ciclo traz
+            <span class="text-primary">aos vencedores </span>uma integração com a <span class="text-primary">Comunidade
+              de bionegócios do PPBIO</span>
           </h1>
         </div>
-        <div class="col-lg-6 text-lg-end">
-          <a class="btn btn-primary py-3 px-5" href="">Special Pricing</a>
-        </div>
-      </div>
-      <div class="row g-4">
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="membership-item position-relative">
-            <img class="img-fluid" src="img/animal-lg-1.jpg" alt="" />
-            <h1 class="display-1">01</h1>
-            <h4 class="text-white mb-3">Popular</h4>
-            <h3 class="text-primary mb-4">$99.00</h3>
-            <p><i class="fa fa-check text-primary me-3"></i>10% discount</p>
-            <p>
-              <i class="fa fa-check text-primary me-3"></i>2 adult and 2 child
-            </p>
-            <p>
-              <i class="fa fa-check text-primary me-3"></i>Free animal
-              exhibition
-            </p>
-            <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="membership-item position-relative">
-            <img class="img-fluid" src="img/animal-lg-2.jpg" alt="" />
-            <h1 class="display-1">02</h1>
-            <h4 class="text-white mb-3">Standard</h4>
-            <h3 class="text-primary mb-4">$149.00</h3>
-            <p><i class="fa fa-check text-primary me-3"></i>15% discount</p>
-            <p>
-              <i class="fa fa-check text-primary me-3"></i>4 adult and 4 child
-            </p>
-            <p>
-              <i class="fa fa-check text-primary me-3"></i>Free animal
-              exhibition
-            </p>
-            <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div class="membership-item position-relative">
-            <img class="img-fluid" src="img/animal-lg-3.jpg" alt="" />
-            <h1 class="display-1">03</h1>
-            <h4 class="text-white mb-3">Premium</h4>
-            <h3 class="text-primary mb-4">$199.00</h3>
-            <p><i class="fa fa-check text-primary me-3"></i>20% discount</p>
-            <p>
-              <i class="fa fa-check text-primary me-3"></i>6 adult and 6 child
-            </p>
-            <p>
-              <i class="fa fa-check text-primary me-3"></i>Free animal
-              exhibition
-            </p>
-            <a class="btn btn-outline-light px-4 mt-3" href="">Get Started</a>
-          </div>
-        </div>
       </div>
     </div>
   </div>
-  <!-- Membership End -->
+  <!-- Facts End -->
 
   <!-- Testimonial Start -->
-  <div class="container-xxl py-5">
+  <div class="container-xxl py-5" id="jurados">
     <div class="container">
-      <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
-        Our Clients Say!
-      </h1>
-      <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-        <div class="testimonial-item text-center">
-          <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="img/testimonial-1.jpg"
-            style="width: 100px; height: 100px" />
-          <div class="testimonial-text rounded text-center p-4">
-            <p>
-              Clita clita tempor justo dolor ipsum amet kasd amet duo justo
-              duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
-              clita erat magna elitr erat sit sit erat at rebum justo sea
-              clita.
-            </p>
-            <h5 class="mb-1">Patient Name</h5>
-            <span class="fst-italic">Profession</span>
+      <div class="row g-5 mb-5 align-items-end wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-6">
+          <p><span class="text-primary me-2">#</span>Elos da Amazônia 2022</p>
+          <h1 class="display-5 mb-0">
+            Jurados<span class="text-primary"></span>
+          </h1>
+        </div>
+      </div>
+      <div class="card-juri">
+        <div class="card-div-1">
+          <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="img/jurados/narrubia.jpeg"
+            style="width: 150px; height: 150px" />
+          <h4 class="text-card">Narrúbia Oliveira de Almeida Martins</h4>
+          <p class="description">
+            Dra. em Engenharia Florestal pela UFLA, com enfase em Silvicultura e Recuperação de Áreas
+            Degradadas,
+            professora da UFAM do Curso de Engenharia Florestal, ministrando as disciplinas de Viveiros
+            Florestais e
+            Recuperação de Áreas Degradadas.
+          </p>
+          <div>
+
           </div>
         </div>
-        <div class="testimonial-item text-center">
-          <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="img/testimonial-2.jpg"
-            style="width: 100px; height: 100px" />
-          <div class="testimonial-text rounded text-center p-4">
-            <p>
-              Clita clita tempor justo dolor ipsum amet kasd amet duo justo
-              duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
-              clita erat magna elitr erat sit sit erat at rebum justo sea
-              clita.
-            </p>
-            <h5 class="mb-1">Patient Name</h5>
-            <span class="fst-italic">Profession</span>
+        <div class="card-div-2">
+          <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="img/jurados/paulo.jpeg"
+            style="width: 150px; height: 150px" />
+          <h4 class="text-card">Paulo Alexandre Simonetti </h4>
+          <p class="description">
+            M.Sc. Eng em Biotecnologia com ênfase em Gestão da Inovação, MBA em Gestão de Negócios e em P&D de
+            Cosméticos e atual Líder de Captação e Relacionamento com o Investidor do Programa Prioritário de
+            Bioeconomia (PPBio), do Idesam.
+          </p>
+          <div>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.linkedin.com/in/pauloasimonetti/"
+              target="_blank"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
-        <div class="testimonial-item text-center">
-          <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="img/testimonial-3.jpg"
-            style="width: 100px; height: 100px" />
-          <div class="testimonial-text rounded text-center p-4">
-            <p>
-              Clita clita tempor justo dolor ipsum amet kasd amet duo justo
-              duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
-              clita erat magna elitr erat sit sit erat at rebum justo sea
-              clita.
-            </p>
-            <h5 class="mb-1">Patient Name</h5>
-            <span class="fst-italic">Profession</span>
+        <div class="card-div-3">
+          <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="img/jurados/bia.png"
+            style="width: 150px; height: 150px" />
+          <h4 class="text-card">Bia Makiyama Marchiori</h4>
+          <p class="description">
+            Engenheira agrônoma (UFRRJ), com especialização em economia circular (PUC/RS) e MBA em gestão de
+            negócios
+            (ESALQ-USP). Possui experiência no planejamento, gestão e desenvolvimento de projetos na área de
+            sustentabilidade, atuando nos últimos anos com foco em recuperação florestal por meio de
+            investimento em
+            negócios de impacto socioambiental positivo e desenvolvimento rural sustentável. Atualmente
+            trabalhando no
+            Fundo Vale.
+          </p>
+          <div>
+            <a class="btn btn-sm-square bg-white text-primary me-1"
+              href="https://www.linkedin.com/in/bia-marchiori-8386a872/" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Testimonial End -->
 
-  <!-- Footer Start -->
-  <div class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-5">
-      <div class="row g-5">
-        <div class="col-lg-3 col-md-6">
-          <h5 class="text-light mb-4">Address</h5>
-          <p class="mb-2">
-            <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
-          </p>
-          <p class="mb-2">
-            <i class="fa fa-phone-alt me-3"></i>+012 345 67890
-          </p>
-          <p class="mb-2">
-            <i class="fa fa-envelope me-3"></i>info@example.com
-          </p>
-          <div class="d-flex pt-2">
-            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+  <!-- Animal Start -->
+  <div class="container-xxl py-5" id="gallery">
+    <div class="container">
+      <div class="row g-5 mb-5 align-items-end wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-6">
+          <p><span class="text-primary me-2">#</span>Elos da Amazônia 2022</p>
+          <h1 class="display-5 mb-0">
+            Elos da Amazônia - <span class="text-primary">Restauração Florestal</span>
+          </h1>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="row g-4">
+            <div class="col-12">
+              <a class="animal-item" href="img/gallery/1.jpg" data-lightbox="animal">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/gallery/1.jpg" alt="" />
+                  <div class="animal-text p-4">
+                    <p class="text-white small text-uppercase mb-0">acervo idesam</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12">
+              <a class="animal-item" href="img/gallery/2.jpg" data-lightbox="animal">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/gallery/2.jpg" alt="" />
+                  <div class="animal-text p-4">
+                    <p class="text-white small text-uppercase mb-0">acervo idesam</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <h5 class="text-light mb-4">Quick Links</h5>
-          <a class="btn btn-link" href="">About Us</a>
-          <a class="btn btn-link" href="">Contact Us</a>
-          <a class="btn btn-link" href="">Our Services</a>
-          <a class="btn btn-link" href="">Terms & Condition</a>
-          <a class="btn btn-link" href="">Support</a>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="row g-4">
+            <div class="col-12">
+              <a class="animal-item" href="img/gallery/3.jpg" data-lightbox="animal">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/gallery/3.jpg" alt="" />
+                  <div class="animal-text p-4">
+                    <p class="text-white small text-uppercase mb-0">acervo idesam</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12">
+              <a class="animal-item" href="img/gallery/4.jpg" data-lightbox="animal">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/gallery/4.jpg" alt="" />
+                  <div class="animal-text p-4">
+                    <p class="text-white small text-uppercase mb-0">acervo idesam</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12">
+              <a class="animal-item" href="img/gallery/5.jpg" data-lightbox="animal">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/gallery/5.jpg" alt="" />
+                  <div class="animal-text p-4">
+                    <p class="text-white small text-uppercase mb-0">acervo idesam</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <h5 class="text-light mb-4">Popular Links</h5>
-          <a class="btn btn-link" href="">About Us</a>
-          <a class="btn btn-link" href="">Contact Us</a>
-          <a class="btn btn-link" href="">Our Services</a>
-          <a class="btn btn-link" href="">Terms & Condition</a>
-          <a class="btn btn-link" href="">Support</a>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h5 class="text-light mb-4">Newsletter</h5>
-          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-          <div class="position-relative mx-auto" style="max-width: 400px">
-            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
-            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
-              SignUp
-            </button>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="row g-4">
+            <div class="col-12">
+              <a class="animal-item" href="img/gallery/6.jpg" data-lightbox="animal">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/gallery/6.jpg" alt="" />
+                  <div class="animal-text p-4">
+                    <p class="text-white small text-uppercase mb-0">acervo idesam</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-12">
+              <a class="animal-item" href="img/gallery/7.jpg" data-lightbox="animal">
+                <div class="position-relative">
+                  <img class="img-fluid" src="img/gallery/7.jpg" alt="" />
+                  <div class="animal-text p-4">
+                    <p class="text-white small text-uppercase mb-0">acervo idesam</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+  <!-- realizadores -->
+
+  <div class="container-xxl py-5">
     <div class="container">
+      <div class="row g-5 mb-5 align-items-end wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-6">
+          <p><span class="text-primary me-2">#</span>Elos da Amazônia 2022</p>
+          <h1 class="display-5 mb-0">
+            <span class="text-primary">Edições</span> passadas
+          </h1>
+        </div>
+      </div>
+      <div class="card-participant">
+        <div class="card-div-castanha">
+          <h4 class="text-card">Edição Óleos e Castanhas</h4>
+          <p class="description-12">
+            A segunda edição da Chamada Elos da Amazônia, que tem como propósito encontrar e reconhecer soluções para as
+            cadeias produtivas, focou no primeiro semestre de 2022 nas cadeias da castanha-do-Brasil e de óleos
+            vegetais.
+          </p>
+          <div>
+            <a href="" class="btn btn-primary">Resultados</a>
+          </div>
+        </div>
+        <div class="card-div-acai">
+          <h4 class="text-card">Edição Açai</h4>
+          <p class="description-12">
+            A primeira edição do Prêmio Elos da Amazônia trouxe boas surpresas e cenários. Foi animador identificar que
+            pesquisadores e empreendedores de todo o país têm ideias e soluções para os mais variados gargalos
+            existentes nas cadeias de produção da Amazônia. Saiba mais sobre a primeira edição!
+          </p>
+          <div>
+            <a href="" class="btn btn-primary">Resultados</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-xxl py-5" id="realizadores">
+    <div class="container">
+      <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-8">
+          <h1 class="display-5 mb-0">
+            #<span class="text-primary">Realizadores</span>
+          </h1>
+        </div>
+      </div>
+      <div class="row gy-5 gx-4">
+        <div class="col-lg-4 col-md-4 col-sm-3 wow fadeInUp" data-wow-delay="0.1s">
+          <img class="img-fluid mb-3" src="img/patrocinadores/idesam.png" alt="Icon" />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-3 wow fadeInUp" data-wow-delay="0.3s">
+          <img class="img-fluid mb-3" src="img/patrocinadores/ppbio.png" alt="Icon" />
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-3 wow fadeInUp" data-wow-delay="0.5s">
+          <img class="img-fluid mb-3" src="img/patrocinadores/hub.png" alt="Icon" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-8">
+          <h1 class="display-5 mb-0">
+            #<span class="text-primary">Apoio</span>
+          </h1>
+        </div>
+      </div>
+      <div class="row gy-5 gx-4">
+        <div class="col-lg-4 col-md-4 col-sm-3 wow fadeInUp" data-wow-delay="0.1s">
+          <img class="img-fluid mb-3" src="img/patrocinadores/AMAZONIA.png" alt="Icon" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="col-lg-8">
+          <h1 class="display-5 mb-0">
+            #<span class="text-primary">Financiadores</span>
+          </h1>
+        </div>
+      </div>
+      <div class="row gy-5 gx-4">
+        <div class="col-lg-4 col-md-4 col-sm-3 wow fadeInUp" data-wow-delay="0.1s">
+          <img class="img-fluid mb-3" src="img/patrocinadores/p4fük.png" alt="Icon" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Start -->
+  <div id="contato" class="container-fluid bg-footer text-light mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+
+    <div class="container">
+      <div class="row g-5 mb-5 wow fadeInUp text-center" data-wow-delay="0.1s">
+        <div class="col-lg-12">
+          <h1 class="display-5 mb-0">
+            <span class="text-primary">Contato</span>
+          </h1>
+        </div>
+      </div>
       <div class="copyright">
         <div class="row">
-          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            &copy; <a class="border-bottom" href="#">Your Site Name</a>, All
-            Right Reserved.
+          <div class="social-icons-footer d-flex pt-2">
+            <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.linkedin.com/company/idesam/"
+            target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.instagram.com/idesam/"
+            target="_blank"><i class="fab fa-instagram"></i></a>
+          <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.youtube.com/user/idesanico"
+            target="_blank"><i class="fab fa-youtube"></i></a>
           </div>
-          <div class="col-md-6 text-center text-md-end">
-            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-            Designed By
-            <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-            <br />Distributed By:
-            <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+          <div class="col-md-12 text-center mb-3 mb-md-0 pt-5 pb-3 fw-bold">
+            Prêmio Elos da Amazônia 2022 - Edição Restauração Florestal
           </div>
         </div>
       </div>
