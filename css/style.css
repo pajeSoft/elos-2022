@@ -785,3 +785,15 @@
  flex-direction: row;
  gap: 2rem;
 }
+
+.description-gargalos {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+.text-card-gargalos {
+  font-size: 24px;
+  color: #2eb872;
+  font-weight: 600;
+}
